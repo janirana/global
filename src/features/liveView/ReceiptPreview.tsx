@@ -114,7 +114,7 @@ const AirlineLogo: React.FC<{ airline: string; className?: string }> = ({
       <img
         src={logoImage}
         alt="Airline"
-        className={className || "h-12 w-auto object-contain opacity-40"}
+        className={className || "h-14 w-auto object-contain opacity-40"}
         style={{
           height: '48px',
           width: 'auto',
